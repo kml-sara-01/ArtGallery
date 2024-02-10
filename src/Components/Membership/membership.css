@@ -1,0 +1,43 @@
+.membership {
+    background-color: rgb(255, 213, 0);
+    height: 20vh;
+    width: 90wh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: black;
+}
+.titles h1{
+    font-family: 'ideal-sans-regular';
+    font-size: 2rem;
+}
+.titles h2 {
+    font-family: 'times-new-roman';
+    font-size: 1.5rem;
+}
+.div-button {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+}
+.div-button .button {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+    font-size: 12px;
+    height: 40px;
+    margin: 0 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+.div-button .button:hover{
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+    
+}

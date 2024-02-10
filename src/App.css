@@ -1,0 +1,30 @@
+/* .hr {
+    margin: 10px;
+    border: 0;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+} */
+.container {
+    display: flex;
+    flex-direction: column; /* assurez-vous que le conteneur est en colonne */
+    align-items: center; /* pour centrer horizontalement */
+  }
+  
+  .hr {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 0;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+  

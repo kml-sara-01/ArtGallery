@@ -1,0 +1,17 @@
+.apropos-paragraph {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h1-apropos {
+    font-family: 'Dancing Script', cursive;;
+}
+.apropos-span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+.Favoris h1 {
+    font-family: 'Dancing Script', cursive;
+    /* font-size: 30px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.Favoris{
+    height: 50vh;
+    margin-bottom: 250px;
+}

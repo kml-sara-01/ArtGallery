@@ -1,0 +1,140 @@
+.row {
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+.row.collection h1 {
+    color: #fff;
+    font-size: 100px;
+}
+.row.collection p {
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+/* button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+} */
+
+.card {
+    /* width: 200px; */
+    height: 230px;
+    display: inline-block;
+    border-radius: 0px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    border: 1px solid white;
+}
+
+/* h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+} */
+/* .card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+} */
+.collections {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    
+}
+.collections h1 {
+    font-family: 'Dancing Script', cursive;
+}
+.artist_display {
+    font-size: 18px;
+}
+h3 {
+    font-size: 23px;
+}
+.special {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.special .button {
+    border: none;
+    border: 2px dashed #000000;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    font-size: small;
+    transition: all 0.3s ease-in-out;
+    /* text-decoration: underline; */
+}
+.button:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.lists {
+    align-items: center;
+    /* display: flex; */
+    justify-content: center;
+}
+/* Barre de recherche et filtrage */
+.lists li {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    list-style: none;
+    letter-spacing: 2px;
+    color: black;
+    border-bottom: 2px solid black;
+    font-size: small;
+}
+.lists li:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #ddd;
+    border-bottom: 2px solid #ddd;
+}
+.search-input {
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.search-input input {
+    padding: 8px;
+    font-size: 18px;
+    border: 2px solid #000000;
+    color: black;
+    margin-bottom: 20px;
+    width: 30%;
+}
+.search-input input:focus {
+    outline: dashed;
+}
+
+
+.icon-wrapper {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+.clicked .p-1 {
+color: red; 
+}
